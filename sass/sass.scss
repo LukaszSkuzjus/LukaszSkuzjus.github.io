@@ -1,0 +1,318 @@
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.jumbotron{
+	background-image: url(../images/build/back.jpg);
+	height: 110vh;
+	background-size: cover;
+}
+.container2 {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* MASTHEAD */
+
+.jumbotron header {
+  height: 100px;
+  
+}
+
+.jumbotron header .container2 {
+  
+}
+
+
+
+.jumbotron header nav {
+	text-align: center;
+  margin: 0 auto;
+  
+}
+
+.jumbotron header nav ul {
+  list-style-type: none;
+  margin: 0;
+  
+  padding: 0;
+  border-bottom: 1px solid #515268;
+  border-top: 1px solid #515268;
+}
+
+.jumbotron header nav li {
+  display: inline-block;
+}
+
+.jumbotron header nav li a {
+  display: block;
+  font-size: 13px;
+  font-family: "Raleway";
+  color: rgba(255, 255, 255, 0.749);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 100px;
+  height: 100px;
+  margin: 0px 30px;
+  text-decoration: none;
+  transition: .2s;
+}
+
+.jumbotron header nav li a:hover {
+  color: #e84545;
+}
+
+.jumbotron header nav li a:last-of-type {
+  margin-right: 0;
+}
+
+.jumbotron .slogan {
+  font-size: 65px;
+  font-family: "Open Sans";
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.092;
+  text-align: center;
+  margin: 0 120px;
+  margin-top: 150px;
+  margin-bottom: 40px;
+}
+
+.jumbotron .slogan__desc {
+    margin: 0 100px;
+    font-size: 22px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: center;
+}
+
+.jumbotron .slogan__btn {
+  background-color: rgb(232, 69, 69);
+  width: 200px;
+  height: 46px;
+  font-size: 13px;
+  font-family: "Raleway";
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.615;
+  text-align: center;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  margin: 70px auto;
+  display: block;
+}
+
+
+.scroll-icon {
+    position: absolute;
+    width: 200px;
+    height: 110px;
+    padding-right: 3.5rem;
+    bottom: 0;
+    right: 20px;
+    text-align: right;
+    border-right: 1px dashed rgba(255, 255, 255, 0.3);
+}
+.scroll-icon .scroll-text {
+    font-family: "Arial", sans-serif;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    margin-top: 1.5rem;
+}
+.scroll-icon .end-top {
+    content: "";
+    background-color: #FFFFFF;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    top: -6px;
+    right: -4px;
+}
+.scroll-icon .mouse {
+    position: absolute;
+    height: 38px;
+    width: 25px;
+    border: 3px solid #FFFFFF;
+    border-radius: 12px;
+    right: -13px;
+    top: 10px;
+    display: block;
+    text-align: center;
+    z-index: 700;
+    -webkit-animation: vertical 3s ease infinite;
+    animation: vertical 3s ease infinite;
+}
+.scroll-icon .mouse::before {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 3px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 6px;
+    left: 50%;
+    margin-left: -1.5px;
+    border-radius: 2px;
+}
+
+@-webkit-keyframes vertical {
+    0%, 60%, 80%, 100% {
+        -webkit-transform: translateY(0);
+    }
+    20% {
+        -webkit-transform: translateY(-5px);
+    }
+    40% {
+        -webkit-transform: translateY(20px);
+    }
+}
+@keyframes vertical {
+    0%, 60%, 80%, 100% {
+        -webkit-transform: translateY(0);
+    }
+    20% {
+        -webkit-transform: translateY(-5px);
+    }
+    40% {
+        -webkit-transform: translateY(20px);
+    }
+}
+
+@media only screen and (max-width:768px) {
+    
+	.scroll-icon {
+        right: 45px;
+    }
+    .scroll-icon .scroll-text {
+        font-size: 1.4rem;
+    }
+}
+
+.OMnie{
+	 background-color: #53354a;
+	 text-align: center;
+}
+
+.OMnie h1{
+	padding-top: 66px;
+}
+.flex-containerAboutMe{
+  margin-top: 121px;
+  margin-bottom: 127px;
+  margin-left: 48px;
+  margin-right: 48px;
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: center;
+
+  
+
+}
+.flex-containerAboutMe .fewWordsAboutMe{
+  text-align: center;
+  width: 296px;
+  justify-content:center;
+  align-items:flex-start;
+  margin-bottom: 75px;
+  margin-right: 94px;
+}
+
+.fewWordsAboutMe{
+	width: 600px;
+}
+
+.PhotoOfMe{
+	width: 420px;
+}
+.PhotoOfMe img{
+	width: 350px;
+	height: 300px;
+
+}
+.MySkills{
+	width: 600px;
+}
+
+i{
+	font-size: 80px;
+	color: blue;
+	background-color: yellow;
+}
+
+
+/* cytaty */
+
+
+.clientsSection {
+  margin-top: 101px;
+}
+
+.carousel .description{
+  top: 114px;
+  margin-left: 300px;
+  margin-top: 100px;
+  left: 1035px;
+  display: inline-block;
+  max-width: 470px;
+  font-size: 26px;
+  font-family: "Cardo";
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  line-height: 1.167;
+  
+  
+}
+
+.carousel .role{
+  top: 307px;
+  
+  left: 1035px;
+  display: inline-block;
+  max-width: 470px;
+  font-size: 13px;
+  font-family: "Raleway";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.615;
+ z-index: -5;
+}
+
+.carousel-indicators {
+    
+    bottom: 10px;
+    left: 0px;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: 0; 
+    top: 75%;
+    list-style: none;
+}
+
+
+
+.carousel-inner {
+  background-color: #53354a;
+
+}
+
+.item{
+	height: 400px;
+}
+
+/* projects */
+
